@@ -207,4 +207,4 @@ ____
 ## Summary
 
 
-Welcome to the world of the web! In this 
+Welcome to the world of the web! In this lesson, you learned about HTML and how web pages are structured.
