@@ -1,24 +1,7 @@
+
 # HTML Basics
 
-## Objectives
-
-1. Explain what HTML is and why it's important in the context of web development
-2. Read a basic HTML document
-3. Write basic HTML tags
-
-## Lesson
-
-### Integrating Review
-
-So far we've covered many concepts in small pieces to help you focus your
-learning. This lesson reviews some previously-seen concepts, but will focus on
-_integrating_ them, not _introducing_ them.
-
-### A Quick HTML Walkthrough
-
-<a href="https://www.youtube.com/watch?v=b1To1wP-ALo"> HTML walk through </a></p>
-
-### What is HTML?
+## Introduction
 
 HTML, or HyperText Markup Language, is a markup language which describes the
 structure and semantic meaning of web pages. Web browsers, such as Mozilla
@@ -31,12 +14,13 @@ Every web page you've ever visited is structured using HTML code. Being able to
 read and understand an HTML document is one of the most essential tools in a
 developer's toolbox.
 
-### HTML Syntax
+## Objectives
+You will be able to:
+* Explain what HTML is and why it's important in the context of web development
+* Read a basic HTML document
+* Write basic HTML tags
 
-HTML consists of different elements. Each element consists of tags, which wrap
-around content. For example, say we wanted `Hello World` to appear as a
-paragraph. We could use the `p` element, which consists of an opening `p` tag
-and a closing `p` tag.
+## HTML Syntax
 
 ```html
 <p>Hello World</p>
@@ -66,7 +50,7 @@ separate paragraph, we could nest an `a` element inside of a `p`.
 <p>This <a href="http://www.google.com">link</a> will be a part of a separate paragraph.</p>
 ```
 
-### Basic HTML Document Structure
+## Basic HTML Document Structure
 
 All HTML documents begin with a "doctype declaration" tag, which tells our web
 browser which version of HTML to use. HTML is a language that is currently
@@ -115,7 +99,7 @@ for the browser, while the `body` element contains the actual content.
 </html>
 ```
 
-#### Comments
+## Comments
 
 Let's also take a brief moment to recognize how to add comments into an HTML
 document.  These won't get rendered to the browser at all: they're just helpful
@@ -126,12 +110,12 @@ notes for the author.
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
-### Common HTML Elements
+## Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
 take a look at some more HTML elements.
 
-#### Headers
+## Headers
 
 HTML gives us access to different header elements, ranging from `h1` to `h6`,
 with `h1` being the largest and `h6` being the smallest.
@@ -149,7 +133,7 @@ we provide _semantic_ markup, machines can infer the "main points" of a page. A
 well structured article will generally have its principal arguments bracketed
 by low-number header tags -- this very document does exactly that!
 
-#### Images
+## Images
 
 We can embed images on our web pages using the `img` element. The `img` element
 doesn't have a closing tag. The `src` attribute tells the browser where to find
@@ -167,7 +151,7 @@ the `alt` tag as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
-#### Lists
+## Lists
 
 Some other useful HTML elements are lists. We can make bulleted, or unordered
 lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
@@ -219,3 +203,8 @@ ____
     <li>Joe's</li>
 </ol>
 ____
+
+## Summary
+
+
+Welcome to the world of the web! In this 
